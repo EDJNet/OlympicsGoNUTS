@@ -1,0 +1,194 @@
+---
+format:
+  html:
+    embed-resources: true
+    theme: lux
+    fontsize: 1.1em
+execute: 
+  echo: false
+  warning: false
+  message: false
+params:
+  year: 2024
+editor: source
+title: "`r params$year` Summer Olympics"
+subtitle: "All medalists, not by country, but by place of birth"
+author: "Giorgio Comai (OBCT/CCI) for EDJNet"
+affiliation: "EDJNet - European Data Journalist Network"
+---
+
+```{r setup}
+library("here")
+source(here::here("functions", "setup.R"))
+source(here::here("functions", "extract_medals_from_wikipedia_page.R"))
+source(here::here("functions", "get_list_of_lists.R"))
+invisible(source(here::here("functions", "get_nuts_geo.R")))
+source(here::here("functions", "join_nuts.R"))
+```
+
+
+```{r all_medalists_df, message=FALSE}
+current_html <- o24_read_html(olympics_year = params$year,
+                              list_of_lists_df = list_of_lists_df)
+
+
+all_medalists_df <- o24_get_all_medalists(current_html, params$year) |> 
+  o24_drop_non_humans()
+
+```
+
+
+```{r all_medalists_wd_df}
+all_medalists_wd_df <- o24_get_medalists_details(all_medalists_df)
+```
+
+
+```{r all_medalists_wd_nuts_df}
+
+
+all_medalists_wd_nuts_df <- o24_join_nuts(all_medalists_wd_df)
+
+
+```
+
+
+
+```{r all_medalists_wd_nuts_pop_df}
+all_medalists_wd_nuts_pop_df <- o24_join_nuts_stats(all_medalists_wd_nuts_df)
+```
+
+
+
+```{r export_datasets}
+source(here::here("functions", "export_datasets.R"))
+o24_export_datasets(all_medalists_wd_nuts_pop_df, params$year)
+```
+
+
+```{r create_maps}
+source(here::here("functions", "create_map.R"))
+medal_map_ll <- o24_create_global_map(all_medalists_wd_nuts_pop_df, params$year)
+
+# medal_map_ll
+
+```
+
+
+## Maps
+
+- [global interactive map with all Olympics medalists by place of birth](medalists_map.html)
+
+
+```{r eval = FALSE}
+# re-check from Wikidata missing data to see if they have been added
+readr::read_csv("medalists_missing_place_of_birth.csv", show_col_types = FALSE) %>% 
+  dplyr::pull(medalist_wikidata_id) %>% 
+  tw_get(overwrite_cache = TRUE)
+```
+
+
+## Datasets for download
+
+### Global
+
+```{r all_medalists_csv, results='asis'}
+cat(stringr::str_c("- [all medalists](", params$year, "_medalists_all.csv)"))
+
+```
+
+### Only Europe / NUTS regions
+
+```{r nuts_datasets, results="asis"}
+cat(stringr::str_c("- [medalists born in a NUTS region](", params$year, "_medalists_nuts_only.csv)"))
+cat("\n")
+cat(stringr::str_c("- [medals per million residents in NUTS2](", params$year, "_medals_per_million_residents_in_nuts2.csv)"))
+```
+
+
+## Medal rankings based on NUTS
+
+
+
+```{r medals_by_nuts}
+#| column: page
+
+all_medalists_wd_nuts_df |> 
+  dplyr::group_by(nuts2_id, nuts2_name, medal) |> 
+  dplyr::count() |> 
+  dplyr::ungroup() |> 
+  tidyr::pivot_wider(names_from = medal, values_from = n, values_fill = 0) |> 
+  dplyr::relocate(gold, silver, bronze, .after = nuts2_name) |> 
+  dplyr::mutate(total_medals = gold+silver+bronze) |> 
+  tidyr::drop_na() |> 
+  dplyr::arrange(dplyr::desc(total_medals),
+                 dplyr::desc(gold),
+                 dplyr::desc(silver), 
+                 dplyr::desc(bronze)) |> 
+  knitr::kable()
+```
+
+### Medals per million residents
+
+```{r medals_per_million_residents}
+#| column: page
+
+readr::read_csv(
+  file = here::here(params$year,
+                    stringr::str_c(params$year,
+                                   "_medals_per_million_residents_in_nuts2.csv")), show_col_types = FALSE) |> 
+  dplyr::relocate(medals_per_million_residents) |> 
+  knitr::kable()
+```
+
+
+## Missing data
+
+```{r missing_pob_dataset, results="asis"}
+cat(stringr::str_c("- [medalists missing place of birth](", params$year, "_medalists_missing_place_of_birth.csv)"))
+cat("\n")
+cat(stringr::str_c("- [medalists missing place of birth in NUTS countries](", params$year, "_medalists_missing_place_of_birth_from_NUTS_countries.csv)"))
+
+```
+
+
+```{r missing_pob, results='asis'}
+medalist_countries_n <- all_medalists_wd_df |> 
+  nrow()
+
+medalist_countries_missing_coords_n <- all_medalists_wd_df |> 
+  dplyr::filter(is.na(lat)) |> 
+  nrow()
+
+cat(stringr::str_c("There have been ", medalist_countries_n, " medalists. Place of birth is available for ", medalist_countries_n-medalist_countries_missing_coords_n, " of them;", " place of birth is missing for ", medalist_countries_missing_coords_n, " (", scales::percent(medalist_countries_missing_coords_n/medalist_countries_n), ")."))
+```
+
+
+```{r missing_pob_europe, results='asis'}
+
+# nuts2_2024_sf |> 
+#   sf::st_drop_geometry()
+# 
+# all_medalists_wd_nuts_df
+
+
+medalist_nuts_countries_n <- all_medalists_wd_nuts_df |> 
+  dplyr::filter(country_medal_NUTS_code %in% nuts_countries_v) |> 
+  nrow()
+
+medalist_nuts_countries_missing_coords_n <- all_medalists_wd_nuts_df |> 
+  dplyr::filter(country_medal_NUTS_code %in% nuts_countries_v, 
+                is.na(lat)) |> 
+  nrow()
+
+cat(stringr::str_c("There have been ", medalist_nuts_countries_n, " medalists participating for countries that are covered by NUTS. Place of birth is available for ", medalist_nuts_countries_n-medalist_nuts_countries_missing_coords_n, " of them;", " place of birth is missing for ", medalist_nuts_countries_missing_coords_n, " (", scales::percent(medalist_nuts_countries_missing_coords_n/medalist_nuts_countries_n), ")."))
+  
+```
+
+
+
+<hr />
+
+```{r latest_update, results='asis'}
+cat(stringr::str_c("Last updated: ", format(Sys.time())))
+```
+

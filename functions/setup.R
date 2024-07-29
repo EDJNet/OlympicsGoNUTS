@@ -1,0 +1,15 @@
+library("dplyr") 
+library("rvest")
+library("stringr")
+library("sf")
+library("jsonlite")
+library("purrr")
+library("here")
+
+# remotes::install_github("EDJNet/tidywikidatar")
+library("tidywikidatar")
+tw_enable_cache()
+tw_set_cache_folder(path = fs::path(fs::path_home_r(), "R", "tw_data_olympics"))
+tw_create_cache_folder(ask = FALSE)
+tw_set_language(language = "en")
+

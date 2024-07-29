@@ -1,0 +1,1 @@
+all_medalists_df$medal[all_medalists_df$event_link=="/wiki/Athletics_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_high_jump"&all_medalists_df$medalist_link=="/wiki/Mutaz_Essa_Barshim"] <- "gold"
