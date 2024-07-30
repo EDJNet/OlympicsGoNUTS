@@ -22,6 +22,7 @@ library("here")
 source(here::here("functions", "setup.R"))
 source(here::here("functions", "extract_medals_from_wikipedia_page.R"))
 source(here::here("functions", "get_list_of_lists.R"))
+source(here::here("functions", "check_ranking_in_wikidata.R"))
 invisible(source(here::here("functions", "get_nuts_geo.R")))
 source(here::here("functions", "join_nuts.R"))
 ```
@@ -34,6 +35,10 @@ current_html <- o24_read_html(olympics_year = params$year,
 
 all_medalists_df <- o24_get_all_medalists(current_html, params$year) |> 
   o24_drop_non_humans()
+
+mismatch_df <- get_mismatch_ranking_in_wikidata(all_medalists_df)
+
+all_medalists_df <- fix_mismatch_ranking_in_wikidata(all_medalists_df, mismatch_df)
 
 ```
 
