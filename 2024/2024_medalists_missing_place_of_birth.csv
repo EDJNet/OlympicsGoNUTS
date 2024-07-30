@@ -1,14 +1,11 @@
 event_name,medal,medalist_name,medalist_wikidata_id,country_medal,delegation_name,sex_or_gender
 Archery at the 2024 Summer Olympics – Men's team,gold,Lee Woo-seok,Q18001487,South Korea,South Korea at the 2024 Summer Olympics,male
 Archery at the 2024 Summer Olympics – Men's team,silver,Baptiste Addis,Q125903239,France,France at the 2024 Summer Olympics,male
-archery at the 2024 Summer Olympics – women's team,gold,Lim Si-hyeon,Q122922472,South Korea,South Korea at the 2024 Summer Olympics,female
 archery at the 2024 Summer Olympics – women's team,silver,An Qixuan,Q67916445,People's Republic of China,China at the 2024 Summer Olympics,female
 archery at the 2024 Summer Olympics – women's team,silver,Yang Xiaolei,Q107619645,People's Republic of China,China at the 2024 Summer Olympics,female
 Canoeing at the 2024 Summer Olympics – Men's slalom C-1,gold,Nicolas Gestin,Q104470593,France,France at the 2024 Summer Olympics,male
 diving at the 2024 Summer Olympics – Women's synchronized 3 metre springboard,gold,Chang Yani,Q33120258,People's Republic of China,China at the 2024 Summer Olympics,female
 diving at the 2024 Summer Olympics – Women's synchronized 3 metre springboard,bronze,Yasmin Harper,Q113557804,United Kingdom,Great Britain at the 2024 Summer Olympics,female
-equestrian at the 2024 Summer Olympics – individual eventing,bronze,Laura Collett,Q107571009,United Kingdom,Great Britain at the 2024 Summer Olympics,female
-equestrian at the 2024 Summer Olympics,gold,Laura Collett,Q107571009,United Kingdom,Great Britain at the 2024 Summer Olympics,female
 equestrian at the 2024 Summer Olympics,bronze,Ryuzo Kitajima,Q26871068,Japan,Japan at the 2024 Summer Olympics,male
 fencing at the 2024 Summer Olympics – women's foil,silver,Lauren Scruggs (fencer),Q127993489,United States of America,United States at the 2024 Summer Olympics,female
 gymnastics at the 2024 Summer Olympics – men's artistic team all-around,gold,Takaaki Sugino,Q110987642,Japan,Japan at the 2024 Summer Olympics,male
@@ -34,9 +31,9 @@ rugby sevens at the 2024 Summer Olympics – men's tournament,bronze,Tiaan Preto
 rugby sevens at the 2024 Summer Olympics – men's tournament,bronze,Shaun Williams,Q113540739,South Africa,South Africa at the 2024 Summer Olympics,male
 rugby sevens at the 2024 Summer Olympics – men's tournament,bronze,Shilton van Wyk,Q115667410,South Africa,South Africa at the 2024 Summer Olympics,male
 rugby sevens at the 2024 Summer Olympics – men's tournament,bronze,Ronald Brown,Q107766863,South Africa,South Africa at the 2024 Summer Olympics,male
-shooting at the 2024 Summer Olympics – women's 10 metre air rifle,gold,Ban Hyo-jin,Q126974221,South Korea,South Korea at the 2024 Summer Olympics,female
 shooting at the 2024 Summer Olympics – women's 10 metre air rifle,silver,Huang Yuting,Q114669352,People's Republic of China,China at the 2024 Summer Olympics,female
 shooting at the 2024 Summer Olympics – women's 10 metre air rifle,bronze,Audrey Gogniat,Q124714616,Switzerland,Switzerland at the 2024 Summer Olympics,female
+NA,silver,Şevval İlayda Tarhan,Q125361685,Turkey,Turkey at the 2024 Summer Olympics,female
 shooting at the 2024 Summer Olympics – mixed 10 metre air rifle team,gold,Huang Yuting,Q114669352,People's Republic of China,China at the 2024 Summer Olympics,female
 shooting at the 2024 Summer Olympics – mixed 10 metre air rifle team,silver,Keum Ji-hyeon,Q56486544,South Korea,South Korea at the 2024 Summer Olympics,female
 shooting at the 2024 Summer Olympics – mixed 10 metre air rifle team,bronze,NA,Q127923064,Kazakhstan,Kazakhstan at the 2024 Summer Olympics,female
