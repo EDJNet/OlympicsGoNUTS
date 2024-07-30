@@ -2,11 +2,13 @@ event_name,medal,medalist_name,medalist_wikidata_id,country_medal,delegation_nam
 Archery at the 2024 Summer Olympics – Men's team,silver,Baptiste Addis,Q125903239,France,France at the 2024 Summer Olympics,male
 Canoeing at the 2024 Summer Olympics – Men's slalom C-1,gold,Nicolas Gestin,Q104470593,France,France at the 2024 Summer Olympics,male
 equestrian at the 2024 Summer Olympics,bronze,Ryuzo Kitajima,Q26871068,Japan,Japan at the 2024 Summer Olympics,male
+fencing at the 2024 Summer Olympics – women's team épée,bronze,Aleksandra Zamachowska,Q55124303,Poland,Poland at the 2024 Summer Olympics,female
 fencing at the 2024 Summer Olympics – women's foil,silver,Lauren Scruggs (fencer),Q127993489,United States of America,United States at the 2024 Summer Olympics,female
 gymnastics at the 2024 Summer Olympics – men's artistic team all-around,gold,Takaaki Sugino,Q110987642,Japan,Japan at the 2024 Summer Olympics,male
 gymnastics at the 2024 Summer Olympics – men's artistic team all-around,bronze,Asher Hong,Q111452488,United States of America,United States at the 2024 Summer Olympics,male
 judo at the 2024 Summer Olympics – men's 60 kg,bronze,Ryuju Nagayama,Q22125632,Japan,Japan at the 2024 Summer Olympics,male
 judo at the 2024 Summer Olympics – women's 57 kg,bronze,Haruka Funakubo,Q22128053,Japan,Japan at the 2024 Summer Olympics,female
+judo at the 2024 Summer Olympics – women's 63 kg,silver,Prisca Awiti Alcaraz,Q106514105,Mexico,Mexico at the 2024 Summer Olympics,female
 rugby sevens at the 2024 Summer Olympics – men's tournament,silver,Joseva Talacolo,Q127850183,Fiji,Fiji at the 2024 Summer Olympics,male
 rugby sevens at the 2024 Summer Olympics – men's tournament,silver,Jerry Matana,Q113468968,Fiji,Fiji at the 2024 Summer Olympics,male
 rugby sevens at the 2024 Summer Olympics – men's tournament,silver,Sevuloni Mocenacagi,Q59387209,Fiji,Fiji at the 2024 Summer Olympics,male
@@ -21,6 +23,14 @@ rugby sevens at the 2024 Summer Olympics – men's tournament,bronze,Quewin Nort
 rugby sevens at the 2024 Summer Olympics – men's tournament,bronze,Shaun Williams,Q113540739,South Africa,South Africa at the 2024 Summer Olympics,male
 rugby sevens at the 2024 Summer Olympics – men's tournament,bronze,Shilton van Wyk,Q115667410,South Africa,South Africa at the 2024 Summer Olympics,male
 rugby sevens at the 2024 Summer Olympics – men's tournament,bronze,Ronald Brown,Q107766863,South Africa,South Africa at the 2024 Summer Olympics,male
+rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Kayla Canett,Q41324032,United States of America,United States at the 2024 Summer Olympics,female
+rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Kristi Kirshe,Q107652712,United States of America,United States at the 2024 Summer Olympics,female
+rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Alena Olsen,Q114132680,United States of America,United States at the 2024 Summer Olympics,female
+rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Alex Sedrick,Q128053889,United States of America,United States at the 2024 Summer Olympics,female
+rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Sammy Sullivan,Q114130757,United States of America,United States at the 2024 Summer Olympics,female
+rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Stephanie Rovetti,Q106088737,United States of America,United States at the 2024 Summer Olympics,female
+shooting at the 2024 Summer Olympics – men's trap,gold,Nathan Hales,Q65561383,United Kingdom,Great Britain at the 2024 Summer Olympics,male
+shooting at the 2024 Summer Olympics – men's trap,bronze,Jean Pierre Brol,Q6171345,Guatemala,Guatemala at the 2024 Summer Olympics,male
 shooting at the 2024 Summer Olympics – women's 10 metre air rifle,silver,Huang Yuting,Q114669352,People's Republic of China,China at the 2024 Summer Olympics,female
 shooting at the 2024 Summer Olympics – mixed 10 metre air rifle team,gold,Huang Yuting,Q114669352,People's Republic of China,China at the 2024 Summer Olympics,female
 shooting at the 2024 Summer Olympics – mixed 10 metre air rifle team,silver,Keum Ji-hyeon,Q56486544,South Korea,South Korea at the 2024 Summer Olympics,female
@@ -28,6 +38,11 @@ shooting at the 2024 Summer Olympics – mixed 10 metre air rifle team,bronze,NA
 swimming at the 2024 Summer Olympics – men's 4 × 100 metre freestyle relay,gold,Matt King,Q120920368,United States of America,United States at the 2024 Summer Olympics,male
 swimming at the 2024 Summer Olympics – men's 4 × 100 metre freestyle relay,silver,Kai James Taylor,Q120829987,Australia,Australia at the 2024 Summer Olympics,male
 swimming at the 2024 Summer Olympics – men's 4 × 100 metre freestyle relay,silver,William Yang,Q112627222,Australia,Australia at the 2024 Summer Olympics,male
+swimming at the 2024 Summer Olympics – men's 4 × 200 metre freestyle relay,gold,Jack McMillan,Q107671193,United Kingdom,Great Britain at the 2024 Summer Olympics,male
+swimming at the 2024 Summer Olympics – men's 4 × 200 metre freestyle relay,bronze,Maximillian Giuliani,Q128028174,Australia,Australia at the 2024 Summer Olympics,male
+swimming at the 2024 Summer Olympics – men's 4 × 200 metre freestyle relay,bronze,Kai James Taylor,Q120829987,Australia,Australia at the 2024 Summer Olympics,male
 swimming at the 2024 Summer Olympics – women's 4 × 100 metre freestyle relay,gold,Olivia Wunsch,Q127947029,Australia,Australia at the 2024 Summer Olympics,female
 swimming at the 2024 Summer Olympics – women's 4 × 100 metre freestyle relay,bronze,Wu Qingfeng,Q56254677,People's Republic of China,China at the 2024 Summer Olympics,female
 swimming at the 2024 Summer Olympics – women's 4 × 100 metre freestyle relay,bronze,Yu Yiting,Q65717889,People's Republic of China,China at the 2024 Summer Olympics,female
+Table tennis at the 2024 Summer Olympics – Mixed doubles,silver,Ri Jong-sik,Q128035429,North Korea,North Korea at the 2024 Summer Olympics,male
+Table tennis at the 2024 Summer Olympics – Mixed doubles,silver,Kim Kum-yong,Q128035132,North Korea,North Korea at the 2024 Summer Olympics,female
