@@ -15,7 +15,7 @@ o24_create_global_map <- function(all_medalists_wd_nuts_pop_df, olympics_year) {
     dplyr::mutate(medal = stringr::str_c(medal,collapse = ", "), event_part_of = stringr::str_c(unique(event_part_of), collapse = ", ")) %>% 
     dplyr::mutate(popup_content = stringr::str_c(
       "<big><b><a href='", medalist_link, "' target='_blank'>", medalist_name, "</a></b><br />",
-      "Born in ", place_of_birth,"<br />",
+      "Born in ", as.character(place_of_birth),"<br />",
       "Won ", medal, " medal in ", sport, " for ", stringr::str_remove(string = delegation_name, pattern = " at the 2020 Summer Olympics"), "</big>"
       #,
       #    "<a href='https://en.wikipedia.org", medalist_link, "'>", "<img src='", "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/", img_filename,  "&width=120'></a>"
