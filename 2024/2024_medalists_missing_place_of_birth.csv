@@ -1,14 +1,13 @@
 event_name,medal,medalist_name,medalist_wikidata_id,country_medal,delegation_name,sex_or_gender
 Archery at the 2024 Summer Olympics – Men's team,silver,Baptiste Addis,Q125903239,France,France at the 2024 Summer Olympics,male
 Canoeing at the 2024 Summer Olympics – Men's slalom C-1,gold,Nicolas Gestin,Q104470593,France,France at the 2024 Summer Olympics,male
+cycling at the 2024 Summer Olympics – women's BMX freestyle,gold,Deng Yawen,Q124827764,People's Republic of China,China at the 2024 Summer Olympics,female
 Diving at the 2024 Summer Olympics – Women's synchronized 10 metre platform,silver,Jo Jin-Mi,Q124464178,North Korea,North Korea at the 2024 Summer Olympics,female
 equestrian at the 2024 Summer Olympics,bronze,Ryuzo Kitajima,Q26871068,Japan,Japan at the 2024 Summer Olympics,male
-fencing at the 2024 Summer Olympics – women's foil,silver,Lauren Scruggs (fencer),Q127993489,United States of America,United States at the 2024 Summer Olympics,female
 gymnastics at the 2024 Summer Olympics – men's artistic team all-around,bronze,Asher Hong,Q111452488,United States of America,United States at the 2024 Summer Olympics,male
 judo at the 2024 Summer Olympics – men's 60 kg,bronze,Ryuju Nagayama,Q22125632,Japan,Japan at the 2024 Summer Olympics,male
 rowing at the 2024 Summer Olympics – women's quadruple sculls,gold,Lauren Henry,Q118733525,United Kingdom,Great Britain at the 2024 Summer Olympics,female
 rowing at the 2024 Summer Olympics – women's quadruple sculls,gold,Lola Anderson,Q113577774,United Kingdom,Great Britain at the 2024 Summer Olympics,female
-rowing at the 2024 Summer Olympics – women's quadruple sculls,gold,Georgina Brayshaw,Q113577777,United Kingdom,Great Britain at the 2024 Summer Olympics,female
 rugby sevens at the 2024 Summer Olympics – men's tournament,silver,Joseva Talacolo,Q127850183,Fiji,Fiji at the 2024 Summer Olympics,male
 rugby sevens at the 2024 Summer Olympics – men's tournament,silver,Jerry Matana,Q113468968,Fiji,Fiji at the 2024 Summer Olympics,male
 rugby sevens at the 2024 Summer Olympics – men's tournament,silver,Sevuloni Mocenacagi,Q59387209,Fiji,Fiji at the 2024 Summer Olympics,male
@@ -42,7 +41,6 @@ rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Sammy Sul
 rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Stephanie Rovetti,Q106088737,United States of America,United States at the 2024 Summer Olympics,female
 rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Kristen Thomas,Q25999854,United States of America,United States at the 2024 Summer Olympics,female
 shooting at the 2024 Summer Olympics – men's trap,gold,Nathan Hales,Q65561383,United Kingdom,Great Britain at the 2024 Summer Olympics,male
-shooting at the 2024 Summer Olympics – mixed 10 metre air rifle team,bronze,NA,Q127923064,Kazakhstan,Kazakhstan at the 2024 Summer Olympics,female
 swimming at the 2024 Summer Olympics – men's 4 × 100 metre freestyle relay,gold,Matt King,Q120920368,United States of America,United States at the 2024 Summer Olympics,male
 swimming at the 2024 Summer Olympics – men's 4 × 100 metre freestyle relay,silver,William Yang,Q112627222,Australia,Australia at the 2024 Summer Olympics,male
 swimming at the 2024 Summer Olympics – men's 4 × 200 metre freestyle relay,bronze,Maximillian Giuliani,Q128028174,Australia,Australia at the 2024 Summer Olympics,male
