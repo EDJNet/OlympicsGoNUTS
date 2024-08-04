@@ -1,10 +1,13 @@
 event_name,medal,medalist_name,medalist_wikidata_id,country_medal,delegation_name,sex_or_gender
 Archery at the 2024 Summer Olympics – Men's team,silver,Baptiste Addis,Q125903239,France,France at the 2024 Summer Olympics,male
+athletics at the 2024 Summer Olympics – men's shot put,bronze,Rajindra Campbell,Q121617054,Jamaica,Jamaica at the 2024 Summer Olympics,male
+athletics at the 2024 Summer Olympics – men's decathlon,gold,Markus Rooth,Q96792437,Norway,Norway at the 2024 Summer Olympics,male
+athletics at the 2024 Summer Olympics – mixed 4 × 400 metres relay,silver,Kaylyn Brown,Q125915685,United States of America,United States at the 2024 Summer Olympics,female
+athletics at the 2024 Summer Olympics – mixed 4 × 400 metres relay,bronze,Amber Anning,Q61999015,United Kingdom,Great Britain at the 2024 Summer Olympics,female
+NA,bronze,Junior Alcántara,Q123356481,Dominican Republic,Dominican Republic at the 2024 Summer Olympics,male
 Canoeing at the 2024 Summer Olympics – Men's slalom C-1,gold,Nicolas Gestin,Q104470593,France,France at the 2024 Summer Olympics,male
-cycling at the 2020 Summer Olympics – men's BMX race,bronze,Romain Mahieu,Q23771378,France,France at the 2024 Summer Olympics,male
 Diving at the 2024 Summer Olympics – Men's synchronized 3 metre springboard,silver,Juan Celaya,Q65553052,Mexico,Mexico at the 2024 Summer Olympics,male
 Diving at the 2024 Summer Olympics – Women's synchronized 10 metre platform,silver,Jo Jin-Mi,Q124464178,North Korea,North Korea at the 2024 Summer Olympics,female
-equestrian at the 2024 Summer Olympics – team dressage,gold,Frederic Wandres,Q112876069,Germany,Germany at the 2024 Summer Olympics,male
 NA,bronze,Ryuzo Kitajima,Q26871068,Japan,Japan at the 2024 Summer Olympics,male
 NA,gold,Harry Charles,Q107987213,United Kingdom,Great Britain at the 2024 Summer Olympics,male
 fencing at the 2024 Summer Olympics – men's team épée,gold,Máté Tamás Koch,Q65160034,Hungary,Hungary at the 2024 Summer Olympics,male
@@ -12,17 +15,28 @@ fencing at the 2024 Summer Olympics – men's team épée,silver,Akira Komata,Q1
 fencing at the 2024 Summer Olympics – men's team sabre,gold,Park Sang-won,Q126684394,South Korea,South Korea at the 2024 Summer Olympics,male
 fencing at the 2024 Summer Olympics – men's team sabre,gold,Do Gyeong-dong,Q126684393,South Korea,South Korea at the 2024 Summer Olympics,male
 fencing at the 2024 Summer Olympics – women's team foil,gold,Maia Weintraub,Q113153532,United States of America,United States at the 2024 Summer Olympics,female
+fencing at the 2024 Summer Olympics – women's team sabre,silver,Jeon Ha-young,Q121048422,South Korea,South Korea at the 2024 Summer Olympics,female
+fencing at the 2024 Summer Olympics – women's team sabre,silver,Jeon Eun-hye,Q121048052,South Korea,South Korea at the 2024 Summer Olympics,female
+fencing at the 2024 Summer Olympics – women's team sabre,bronze,Seri Ozaki,Q113239157,Japan,Japan at the 2024 Summer Olympics,female
+gymnastics at the 2024 Summer Olympics – men's pommel horse,silver,Nariman Kurbanov,Q96359336,Kazakhstan,Kazakhstan at the 2024 Summer Olympics,male
 gymnastics at the 2024 Summer Olympics – men's trampoline,silver,Wang Zisai,Q123421510,People's Republic of China,China at the 2024 Summer Olympics,male
 gymnastics at the 2024 Summer Olympics – men's trampoline,bronze,Yan Langyu,Q115414353,People's Republic of China,China at the 2024 Summer Olympics,male
 judo at the 2024 Summer Olympics – men's 60 kg,bronze,Ryuju Nagayama,Q22125632,Japan,Japan at the 2024 Summer Olympics,male
 judo at the 2024 Summer Olympics – men's +100 kg,bronze,Temur Rakhimov,Q106602185,Tajikistan,Tajikistan at the 2024 Summer Olympics,male
 judo at the 2024 Summer Olympics – women's +78 kg,gold,Beatriz Souza,Q29835836,Brazil,Brazil at the 2024 Summer Olympics,female
+judo at the 2024 Summer Olympics – mixed team event,silver,Ryuju Nagayama,Q22125632,Japan,Japan at the 2024 Summer Olympics,male
+judo at the 2024 Summer Olympics – mixed team event,silver,Saki Niizoe,Q27917941,Japan,Japan at the 2024 Summer Olympics,female
+judo at the 2024 Summer Olympics – mixed team event,silver,Rika Takayama,Q20041160,Japan,Japan at the 2024 Summer Olympics,female
+judo at the 2024 Summer Olympics – mixed team event,silver,Tatsuru Saito,Q58420159,Japan,Japan at the 2024 Summer Olympics,male
 judo at the 2024 Summer Olympics – mixed team event,bronze,Leonardo Gonçalves,Q29642123,Brazil,Brazil at the 2024 Summer Olympics,male
 judo at the 2024 Summer Olympics – mixed team event,bronze,Rafael Macedo,Q30126191,Brazil,Brazil at the 2024 Summer Olympics,male
 judo at the 2024 Summer Olympics – mixed team event,bronze,Guilherme Schimidt,Q106521067,Brazil,Brazil at the 2024 Summer Olympics,male
 judo at the 2024 Summer Olympics – mixed team event,bronze,Beatriz Souza,Q29835836,Brazil,Brazil at the 2024 Summer Olympics,female
+judo at the 2024 Summer Olympics – mixed team event,bronze,Lee Hye-kyeong,Q63255730,South Korea,South Korea at the 2024 Summer Olympics,female
+judo at the 2024 Summer Olympics – mixed team event,bronze,Jung Ye-rin,Q115917868,South Korea,South Korea at the 2024 Summer Olympics,female
 judo at the 2024 Summer Olympics – mixed team event,bronze,Kim Ji-su,Q53764925,South Korea,South Korea at the 2024 Summer Olympics,female
 judo at the 2024 Summer Olympics – mixed team event,bronze,Han Ju-Yeop,Q126888176,South Korea,South Korea at the 2024 Summer Olympics,male
+judo at the 2024 Summer Olympics – mixed team event,bronze,Yoon Hyun-ji,Q29835734,South Korea,South Korea at the 2024 Summer Olympics,female
 rowing at the 2024 Summer Olympics – men's double sculls,bronze,Daire Lynch,Q100895363,Republic of Ireland,Ireland at the 2024 Summer Olympics,male
 rowing at the 2024 Summer Olympics – men's pair,bronze,Andrin Gulich,Q107673275,Switzerland,Switzerland at the 2024 Summer Olympics,male
 rowing at the 2024 Summer Olympics – men's four,silver,Logan Ullrich,Q122364450,New Zealand,New Zealand at the 2024 Summer Olympics,male
@@ -34,11 +48,9 @@ rowing at the 2024 Summer Olympics – men's eight,gold,Morgan Bolding,Q11391637
 rowing at the 2024 Summer Olympics – men's eight,gold,Rory Gibbs,Q64287368,United Kingdom,Great Britain at the 2024 Summer Olympics,male
 rowing at the 2024 Summer Olympics – men's eight,gold,Thomas Digby,Q113918902,United Kingdom,Great Britain at the 2024 Summer Olympics,male
 rowing at the 2024 Summer Olympics – men's eight,gold,Harry Brightmore,Q61742572,United Kingdom,Great Britain at the 2024 Summer Olympics,male
-rowing at the 2024 Summer Olympics – men's eight,silver,Dieuwke Fetter,Q61715185,Netherlands,Netherlands at the 2024 Summer Olympics,female
 rowing at the 2024 Summer Olympics – men's eight,bronze,Nicholas Rusher,Q128390596,United States of America,United States at the 2024 Summer Olympics,male
 rowing at the 2024 Summer Olympics – men's eight,bronze,Rielly Milne,Q128389408,United States of America,United States at the 2024 Summer Olympics,male
 rowing at the 2024 Summer Olympics – men's lightweight double sculls,bronze,Antonios Papakonstantinou,Q56611831,Greece,Greece at the 2024 Summer Olympics,male
-rowing at the 2024 Summer Olympics – women's single sculls,bronze,Viktorija Senkutė,Q81499197,Lithuania,Lithuania at the 2024 Summer Olympics,female
 rowing at the 2024 Summer Olympics – women's double sculls,bronze,Mathilda Hodgkins-Byrne,Q30144923,United Kingdom,Great Britain at the 2024 Summer Olympics,female
 rowing at the 2024 Summer Olympics – women's double sculls,bronze,Becky Wilde,Q126035337,United Kingdom,Great Britain at the 2024 Summer Olympics,female
 rowing at the 2024 Summer Olympics – women's quadruple sculls,gold,Lola Anderson,Q113577774,United Kingdom,Great Britain at the 2024 Summer Olympics,female
@@ -49,6 +61,7 @@ rowing at the 2024 Summer Olympics – women's eight,bronze,Annie Campbell-Orde,
 rowing at the 2024 Summer Olympics – women's eight,bronze,Holly Dunford,Q125679931,United Kingdom,Great Britain at the 2024 Summer Olympics,female
 rowing at the 2024 Summer Olympics – women's eight,bronze,Lauren Irwin,Q114089494,United Kingdom,Great Britain at the 2024 Summer Olympics,female
 rowing at the 2024 Summer Olympics – women's eight,bronze,Heidi Long,Q113588021,United Kingdom,Great Britain at the 2024 Summer Olympics,female
+rowing at the 2024 Summer Olympics – women's eight,bronze,Eve Stewart,Q125705013,United Kingdom,Great Britain at the 2024 Summer Olympics,female
 rowing at the 2024 Summer Olympics – women's eight,bronze,Harriet Taylor,Q61756850,United Kingdom,Great Britain at the 2024 Summer Olympics,female
 rugby sevens at the 2024 Summer Olympics – men's tournament,silver,Joseva Talacolo,Q127850183,Fiji,Fiji at the 2024 Summer Olympics,male
 rugby sevens at the 2024 Summer Olympics – men's tournament,silver,Jerry Matana,Q113468968,Fiji,Fiji at the 2024 Summer Olympics,male
@@ -80,7 +93,6 @@ rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Alex Sedr
 rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Sammy Sullivan,Q114130757,United States of America,United States at the 2024 Summer Olympics,female
 rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Stephanie Rovetti,Q106088737,United States of America,United States at the 2024 Summer Olympics,female
 sailing at the 2024 Summer Olympics – men's IQFoil,gold,Tom Reuveny,Q124606037,Israel,Israel at the 2024 Summer Olympics,male
-sailing at the 2024 Summer Olympics – men's IQFoil,bronze,Luuc van Opzeeland,Q109311576,Netherlands,Netherlands at the 2024 Summer Olympics,male
 sailing at the 2024 Summer Olympics – 49er,silver,Isaac McHardie,Q128305129,New Zealand,New Zealand at the 2024 Summer Olympics,male
 sailing at the 2024 Summer Olympics – 49er,bronze,Ian Barrows,Q123375530,United States of America,United States at the 2024 Summer Olympics,male
 sailing at the 2024 Summer Olympics – 49er,bronze,Hans Henken,Q123367927,United States of America,United States at the 2024 Summer Olympics,male
@@ -100,3 +112,5 @@ swimming at the 2024 Summer Olympics – women's 4 × 100 metre freestyle relay,
 swimming at the 2024 Summer Olympics – women's 4 × 200 metre freestyle relay,gold,Jamie Perkins,Q128268867,Australia,Australia at the 2024 Summer Olympics,female
 swimming at the 2024 Summer Olympics – women's 4 × 200 metre freestyle relay,silver,Erin Gemmell,Q112223031,United States of America,United States at the 2024 Summer Olympics,female
 swimming at the 2024 Summer Olympics – women's 4 × 200 metre freestyle relay,bronze,Kong Yaqi,Q128278625,People's Republic of China,China at the 2024 Summer Olympics,female
+swimming at the 2024 Summer Olympics – mixed 4 × 100 metre medley relay,bronze,Iona Anderson,Q124523210,Australia,Australia at the 2024 Summer Olympics,female
+table tennis at the 2024 Summer Olympics – men's singles,bronze,Félix Lebrun,Q113553703,France,France at the 2024 Summer Olympics,male
