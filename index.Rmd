@@ -47,6 +47,8 @@ This whole data retrieval process is based on Wikipedia and Wikidata. Wikidata p
 
 We can then combine these data with other statistics about these regions, such as population and economic indicators.
 
+**N.B.**: due to statistical and administrative changes, geographic data about NUTS regions and other indicators such as population or economic activity are not always published at the same time. In particular, the latest NUTS dataset realeased for 2024 would cover more countries in the Balkans, as well as Ukraine, but would not include the UK. In some countries, such as Netherlands and Portugal, administrative boundaries have changed. Population data are not immediately available for all NUTS 2024 regions. In order to maximise coverage and data availability, we include NUTS boundaries from 2021 for the UK, Netherlands and Portugal, as well as NUTS 2024 for all other countries. Population data for some regions (e.g. in Ukraine and Kosovo) are not available, so they are not included in the "per capita" table. 
+
 ## Datasets and maps
 
 **Warning**: Provisional data, not checked for accuracy!

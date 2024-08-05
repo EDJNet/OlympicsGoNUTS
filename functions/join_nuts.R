@@ -5,7 +5,7 @@ o24_join_nuts <- function(all_medalists_wd_df) {
         dplyr::filter(is.na(lon)==FALSE) %>% 
         dplyr::distinct(medalist_wikidata_id, .keep_all = TRUE) %>% 
         sf::st_as_sf(coords = c("lon","lat"), crs = 4326) %>% 
-        sf::st_join(nuts1_2024_sf,
+        sf::st_join(nuts1_combo_sf,
                     join = sf::st_intersects) %>% 
         st_drop_geometry() %>% 
         dplyr::transmute(medalist_wikidata_id,
@@ -17,7 +17,7 @@ o24_join_nuts <- function(all_medalists_wd_df) {
         dplyr::filter(is.na(lon)==FALSE) %>% 
         dplyr::distinct(medalist_wikidata_id, .keep_all = TRUE) %>% 
         sf::st_as_sf(coords = c("lon","lat"), crs = 4326) %>% 
-        sf::st_join(nuts2_2024_sf,
+        sf::st_join(nuts2_combo_sf,
                     join = sf::st_intersects) %>% 
         st_drop_geometry() %>% 
         dplyr::transmute(medalist_wikidata_id,
@@ -29,7 +29,7 @@ o24_join_nuts <- function(all_medalists_wd_df) {
         dplyr::filter(is.na(lon)==FALSE) %>% 
         dplyr::distinct(medalist_wikidata_id, .keep_all = TRUE) %>% 
         sf::st_as_sf(coords = c("lon","lat"), crs = 4326) %>% 
-        sf::st_join(nuts3_2024_sf,
+        sf::st_join(nuts3_combo_sf,
                     join = sf::st_intersects) %>% 
         st_drop_geometry() %>% 
         dplyr::transmute(medalist_wikidata_id,

@@ -23,7 +23,7 @@ source(here::here("functions", "setup.R"))
 source(here::here("functions", "extract_medals_from_wikipedia_page.R"))
 source(here::here("functions", "get_list_of_lists.R"))
 source(here::here("functions", "check_ranking_in_wikidata.R"))
-invisible(source(here::here("functions", "get_nuts_geo.R")))
+invisible(source(here::here("functions", "get_nuts_geo_combo.R")))
 source(here::here("functions", "join_nuts.R"))
 ```
 
@@ -36,11 +36,16 @@ current_html <- o24_read_html(olympics_year = params$year,
 all_medalists_df <- o24_get_all_medalists(current_html, params$year) |> 
   o24_drop_non_humans()
 
+```
+
+
+
+```{r mismatch_check, eval = TRUE}
 mismatch_df <- get_mismatch_ranking_in_wikidata(all_medalists_df)
 
 all_medalists_df <- fix_mismatch_ranking_in_wikidata(all_medalists_df, mismatch_df)
-
 ```
+
 
 
 ```{r all_medalists_wd_df}
@@ -142,6 +147,8 @@ readr::read_csv(
                     stringr::str_c(params$year,
                                    "_medals_per_million_residents_in_nuts2.csv")), show_col_types = FALSE) |> 
   dplyr::relocate(medals_per_million_residents) |> 
+  dplyr::mutate(nuts2_population = scales::number(nuts2_population),
+                medals_per_million_residents = scales::number(medals_per_million_residents, accuracy = 0.01)) |> 
   knitr::kable()
 ```
 
@@ -170,7 +177,7 @@ cat(stringr::str_c("There have been ", medalist_countries_n, " medalists. Place 
 
 ```{r missing_pob_europe, results='asis'}
 
-# nuts2_2024_sf |> 
+# nuts2_2021_sf |> 
 #   sf::st_drop_geometry()
 # 
 # all_medalists_wd_nuts_df

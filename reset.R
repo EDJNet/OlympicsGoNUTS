@@ -8,7 +8,7 @@ fs::dir_delete(yearly_folders)
 fs::dir_delete("medalists_csv")
 
 fs::file_delete(path = here::here("medalists_pages", "medalists_2024.html"))
-# fs::file_delete(path = here::here("medalists_csv", "medalists_2024.csv"))
+fs::file_delete(path = here::here("medalists_csv", "medalists_2024.csv"))
 
 library("here")
 source(here::here("functions", "setup.R"))
