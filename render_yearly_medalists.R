@@ -3,7 +3,7 @@ source(here::here("functions", "get_list_of_lists.R"))
 
 modern_olympics_years_v <- list_of_lists_df |> 
   dplyr::arrange(dplyr::desc(year)) |> 
-  dplyr::filter(year>1945) |> 
+  dplyr::filter(year>=1960) |> 
   dplyr::pull(year)
 
 purrr::walk(

@@ -40,7 +40,7 @@ all_medalists_df <- o24_get_all_medalists(current_html, params$year) |>
 
 
 
-```{r mismatch_check, eval = TRUE}
+```{r mismatch_check, eval = FALSE}
 mismatch_df <- get_mismatch_ranking_in_wikidata(all_medalists_df)
 
 all_medalists_df <- fix_mismatch_ranking_in_wikidata(all_medalists_df, mismatch_df)
@@ -117,7 +117,7 @@ cat(stringr::str_c("- [medals per million residents in NUTS2](", params$year, "_
 
 ## Medal rankings based on NUTS
 
-
+**N.B.**: due to statistical and administrative changes, geographic data about NUTS regions and other indicators such as population or economic activity are not always published at the same time. In particular, the latest NUTS dataset realeased for 2024 covers [more non EU-regions](https://ec.europa.eu/eurostat/web/nuts/non-eu-regions) in the Balkans, as well as Ukraine, but does not include the UK. In some countries, such as Netherlands and Portugal, administrative boundaries have changed, so population data are not immediately available for all NUTS 2024 regions. In order to maximise coverage and data availability, we include NUTS boundaries from 2021 for the UK, Netherlands and Portugal, as well as NUTS 2024 for all other countries. Population data for some NUTS regions (e.g. in Ukraine and Kosovo) are not available.
 
 ```{r medals_by_nuts}
 #| column: page

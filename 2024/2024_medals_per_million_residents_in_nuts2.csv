@@ -7,6 +7,7 @@ UKD6,Cheshire,United Kingdom,4,931347,4.294854656749847
 UKN0,Northern Ireland,United Kingdom,8,1875957,4.264490070934461
 HU11,Budapest,Hungary,7,1671004,4.189098290608521
 UKE2,North Yorkshire,United Kingdom,3,824054,3.640538120074655
+UKK3,Cornwall and Isles of Scilly,United Kingdom,2,568612,3.5173369538455046
 NL32,Noord-Holland,Netherlands,10,2952622,3.386820256707428
 UKM8,West Central Scotland,United Kingdom,5,1541998,3.2425463586852903
 NL12,Friesland (NL),Netherlands,2,659551,3.0323659580532816
@@ -25,7 +26,6 @@ NL22,Gelderland,Netherlands,4,2133708,1.8746707609476085
 ITF5,Basilicata,Italy,1,537577,1.860198632009926
 FR10,Ile-de-France,France,23,12388388,1.856577304488687
 CZ04,Severozápad,Czechia,2,1105932,1.808429451358673
-UKK3,Cornwall and Isles of Scilly,United Kingdom,1,568612,1.7586684769227523
 NL21,Overijssel,Netherlands,2,1184333,1.6887142383096645
 NL11,Groningen,Netherlands,1,596075,1.6776412364215914
 ITH4,Friuli-Venezia Giulia,Italy,2,1194248,1.6746940334000977
@@ -134,11 +134,11 @@ ITF3,Campania,Italy,1,5609536,0.1782678638661023
 TR51,Ankara,Turkey,1,5782285,0.17294201167877404
 ES30,Comunidad de Madrid,Spain,1,6871903,0.14552009829009518
 ES61,Andalucía,Spain,1,8584147,0.11649381120803266
+UA62,Cherkaska Oblast,Ukraine,2,NA,NA
 UA31,Dnipropetrovska Oblast,Ukraine,2,NA,NA
 XK00,Kosovo,Kosovo,2,NA,NA
 UA41,Mykolaivska Oblast,Ukraine,2,NA,NA
 UA44,Avtonomna Respublika Krym,Ukraine,1,NA,NA
-UA62,Cherkaska Oblast,Ukraine,1,NA,NA
 UA74,Chernivetska Oblast,Ukraine,1,NA,NA
 UA53,Khmelnytska Oblast,Ukraine,1,NA,NA
 UA63,M. Kyiv,Ukraine,1,NA,NA
