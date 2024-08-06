@@ -40,7 +40,7 @@ all_medalists_df <- o24_get_all_medalists(current_html, params$year) |>
 
 
 
-```{r mismatch_check, eval = FALSE}
+```{r mismatch_check, eval = TRUE}
 mismatch_df <- get_mismatch_ranking_in_wikidata(all_medalists_df)
 
 all_medalists_df <- fix_mismatch_ranking_in_wikidata(all_medalists_df, mismatch_df)

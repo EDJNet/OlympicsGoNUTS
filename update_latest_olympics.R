@@ -8,6 +8,8 @@ olympics_year <- list_of_lists_df |>
   dplyr::slice_head(n = 1) |> 
   dplyr::pull(year)
 
+# olympics_year <- as.character(2020)
+
 ## Delete previous files ####
 
 fs::dir_delete(olympics_year)
