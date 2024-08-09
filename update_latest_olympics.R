@@ -64,7 +64,7 @@ if (update_cache) {
   
   
   
-  # tw_get_qualifiers(id = "Q4661886",
+  # tw_get_qualifiers(id = "Q290973",
   #                   p = "P1344", overwrite_cache = TRUE) 
   
   ## Medalists with medal not recorded in Wikidata

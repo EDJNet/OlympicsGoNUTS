@@ -34,7 +34,8 @@ current_html <- o24_read_html(olympics_year = params$year,
 
 
 all_medalists_df <- o24_get_all_medalists(current_html, params$year) |> 
-  o24_drop_non_humans()
+  o24_drop_non_humans() |> 
+  o24_drop_human_events()
 
 ```
 
