@@ -8,6 +8,7 @@ get_mismatch_ranking_in_wikidata <- function(all_medalists_df) {
   #current_medalist <- medalists_l[[4]]
   
   check_df <- purrr::map(
+    .progress = TRUE,
     .x = medalists_l,
     .f = \(current_medalist) {
       current_event <- tw_get_qualifiers(id = current_medalist[["medalist_wikidata_id"]],
@@ -24,6 +25,10 @@ get_mismatch_ranking_in_wikidata <- function(all_medalists_df) {
         final_set <- current_event |> 
           dplyr::filter(qualifier_property == "P2443"&qualifier_value=="Q1366722") |> 
           dplyr::pull(set)
+        
+        if (length(final_set)==0) {
+          return(NULL)
+        }
         
         current_ranking <- current_event |> 
           dplyr::filter(set == final_set) |> 

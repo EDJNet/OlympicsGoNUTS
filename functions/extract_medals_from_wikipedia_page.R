@@ -178,6 +178,20 @@ o24_drop_non_humans <- function(all_medalists_wd_df) {
                      by = "medalist_wikidata_id")
 }
 
+o24_drop_human_events <- function(all_medalists_wd_df) {
+  check_humans_df <- all_medalists_wd_df |> 
+    dplyr::distinct(event_wikidata_id) |> 
+    dplyr::mutate(event_instance_of = tw_get_p(id = event_wikidata_id,
+                                                  p = "P31")) |> 
+    tidyr::unnest(event_instance_of) |> 
+    dplyr::group_by(event_instance_of) |> 
+    dplyr::filter("Q5" %in% event_instance_of)
+  
+  all_medalists_wd_df |> 
+    dplyr::anti_join(check_humans_df,
+                     by = "event_wikidata_id")
+}
+
 ### Extract from Wikipedia page ####
 
 
