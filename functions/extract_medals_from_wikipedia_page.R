@@ -259,8 +259,28 @@ o24_get_medals_from_table <- function(table) {
         html_nodes("td") %>% 
         length()
       
-      if (col_number==4) {
+      if (col_number==3) {
         
+        medal_row_df <- tibble::tibble(event_link = current_row %>% 
+                                         html_nodes("th") %>% 
+                                         .[[1]] %>% 
+                                         html_nodes("a") %>% 
+                                         html_attr("href"), 
+                                       gold_medalist = current_row %>% 
+                                         o24_get_medalist_from_cell(td_number = 1), 
+                                       gold_country = current_row %>% 
+                                         o24_get_country_from_cell(td_number = 1),
+                                       silver_medalist = current_row %>% 
+                                         o24_get_medalist_from_cell(td_number = 2), 
+                                       silver_country = current_row %>% 
+                                         o24_get_country_from_cell(td_number = 2),
+                                       bronze_medalist = current_row %>% 
+                                         o24_get_medalist_from_cell(td_number = 3), 
+                                       bronze_country = current_row %>% 
+                                         o24_get_country_from_cell(td_number = 3),
+        ) 
+        
+      } else if (col_number==4) {
         
         medal_row_df <- tibble::tibble(event_link = current_row %>% 
                                          html_nodes("td") %>% 
