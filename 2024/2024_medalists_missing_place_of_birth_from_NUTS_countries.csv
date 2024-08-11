@@ -1,12 +1,23 @@
 event_name,medal,medalist_name,medalist_wikidata_id,country_medal,delegation_name,sex_or_gender
 Archery at the 2024 Summer Olympics – Men's team,silver,Baptiste Addis,Q125903239,France,France at the 2024 Summer Olympics,male
 artistic swimming at the 2024 Summer Olympics – women's duet,bronze,Noortje de Brouwer,Q106869852,Netherlands,Netherlands at the 2024 Summer Olympics,female
+athletics at the 2024 Summer Olympics – men's 4 × 400 metres relay,bronze,Lewis Davey,Q113565265,United Kingdom,Great Britain at the 2024 Summer Olympics,male
+athletics at the 2024 Summer Olympics – men's 4 × 400 metres relay,bronze,Toby Harries,Q94769676,United Kingdom,Great Britain at the 2024 Summer Olympics,male
 athletics at the 2024 Summer Olympics – women's 1500 metres,bronze,Georgia Bell,Q124615808,United Kingdom,Great Britain at the 2024 Summer Olympics,female
+athletics at the 2024 Summer Olympics – women's 4 × 400 metres relay,silver,Myrte van der Schoot,Q123003296,Netherlands,Netherlands at the 2024 Summer Olympics,female
+athletics at the 2024 Summer Olympics – women's 4 × 400 metres relay,bronze,Yemi Mary John,Q111417335,United Kingdom,Great Britain at the 2024 Summer Olympics,female
+athletics at the 2024 Summer Olympics – women's 4 × 400 metres relay,bronze,Hannah Kelly,Q117061551,United Kingdom,Great Britain at the 2024 Summer Olympics,female
+basketball at the 2024 Summer Olympics – women's tournament,silver,Leïla Lacan,Q118816422,France,France at the 2024 Summer Olympics,female
 basketball at the 2024 Summer Olympics – men's 3x3 tournament,silver,Franck Seguela,Q112731348,France,France at the 2024 Summer Olympics,male
+Boxing at the 2024 Summer Olympics – Women's 57 kg,silver,Julia Szeremeta,Q128402012,Poland,Poland at the 2024 Summer Olympics,female
 Canoeing at the 2024 Summer Olympics – Men's slalom C-1,gold,Nicolas Gestin,Q104470593,France,France at the 2024 Summer Olympics,male
 field hockey at the 2024 Summer Olympics – men's tournament,silver,Malte Hellwig,Q111830837,Germany,Germany at the 2024 Summer Olympics,male
 field hockey at the 2024 Summer Olympics – men's tournament,silver,Moritz Ludwig,Q114771116,Germany,Germany at the 2024 Summer Olympics,male
 field hockey at the 2024 Summer Olympics – women's tournament,gold,Joosje Burg,Q112673059,Netherlands,Netherlands at the 2024 Summer Olympics,female
+handball at the 2024 Summer Olympics – men's tournament,silver,Justus Fischer,Q120200061,Germany,Germany at the 2024 Summer Olympics,male
+handball at the 2024 Summer Olympics – men's tournament,silver,Marko Grgić,Q125378898,Germany,Germany at the 2024 Summer Olympics,male
+handball at the 2024 Summer Olympics – men's tournament,bronze,Daniel Fernández Jiménez,Q112841077,Spain,Spain at the 2024 Summer Olympics,male
+handball at the 2024 Summer Olympics – men's tournament,bronze,Javier Rodríguez Moreno,Q114980642,Spain,Spain at the 2024 Summer Olympics,male
 rowing at the 2024 Summer Olympics – men's double sculls,bronze,Daire Lynch,Q100895363,Republic of Ireland,Ireland at the 2024 Summer Olympics,male
 rowing at the 2024 Summer Olympics – men's four,bronze,Oliver Wilkes,Q118766146,United Kingdom,Great Britain at the 2024 Summer Olympics,male
 rowing at the 2024 Summer Olympics – men's four,bronze,David Ambler,Q114173034,United Kingdom,Great Britain at the 2024 Summer Olympics,male
@@ -16,4 +27,8 @@ rowing at the 2024 Summer Olympics – men's eight,gold,Thomas Digby,Q113918902,
 rowing at the 2024 Summer Olympics – men's lightweight double sculls,bronze,Antonios Papakonstantinou,Q56611831,Greece,Greece at the 2024 Summer Olympics,male
 rowing at the 2024 Summer Olympics – women's quadruple sculls,gold,Lola Anderson,Q113577774,United Kingdom,Great Britain at the 2024 Summer Olympics,female
 rowing at the 2024 Summer Olympics – women's eight,bronze,Eve Stewart,Q125705013,United Kingdom,Great Britain at the 2024 Summer Olympics,female
+taekwondo at the 2024 Summer Olympics – men's +80 kg,silver,Caden Cunningham,Q119397839,United Kingdom,Great Britain at the 2024 Summer Olympics,male
 triathlon at the 2024 Summer Olympics,gold,Lasse Lührs,Q47485334,Germany,Germany at the 2024 Summer Olympics,male
+water polo at the 2024 Summer Olympics – men's tournament,gold,Radoslav Filipović,Q128487547,Serbia,Serbia at the 2024 Summer Olympics,male
+water polo at the 2024 Summer Olympics – men's tournament,gold,Petar Jakšić,Q128487502,Serbia,Serbia at the 2024 Summer Olympics,male
+water polo at the 2024 Summer Olympics – men's tournament,gold,Vladimir Mišović,Q128487062,Serbia,Serbia at the 2024 Summer Olympics,male
