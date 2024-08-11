@@ -57,7 +57,7 @@ It is worth highlighting that each person receiving a medal is counted as a meda
 
 ```{r link_to_all_html, results='asis', echo=FALSE}
 years_v <- list_of_lists_df |> 
-  dplyr::filter(year>1945) |> 
+  dplyr::filter(year>1950) |> 
   dplyr::pull(year)
 
 purrr::walk(years_v, \(x) {
@@ -66,23 +66,6 @@ purrr::walk(years_v, \(x) {
 })
 ```
 
-
-## All medalists on Wikipedia
-
-Wikipedia has a [category page](https://en.wikipedia.org/wiki/Category:Lists_of_Summer_Olympic_medalists_by_year) that includes links to all Wikipedia pages that report all Olympics medal winners for all modern summer Olympics. Here they are:
-
-```{r list_of_lists, echo=FALSE}
-
-
-list_of_lists_df |> 
-  dplyr::transmute(year,
-                   title = kableExtra::cell_spec(title_url, link = url)
-                   # ,
-                   # qid = kableExtra::cell_spec(qid, link = stringr::str_c("https://www.wikidata.org/wiki/", qid))
-                   ) |> 
-  dplyr::arrange(as.numeric(year)) |> 
-  knitr::kable(escape = FALSE)
-```
 
 
 ## Credits

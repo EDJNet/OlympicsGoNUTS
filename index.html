@@ -93,8 +93,8 @@ code span.wa { color: #5e5e5e; font-style: italic; }
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2024-08-05" />
-  <meta property="article:created" itemprop="dateCreated" content="2024-08-05" />
+  <meta property="article:published" itemprop="datePublished" content="2024-08-11" />
+  <meta property="article:created" itemprop="dateCreated" content="2024-08-11" />
   <meta name="article:author" content="Giorgio Comai" />
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -110,7 +110,7 @@ code span.wa { color: #5e5e5e; font-style: italic; }
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Olympics medalists, not by country, but by NUTS region"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url","orcid_id"]}},"value":[{"type":"character","attributes":{},"value":["Giorgio Comai"]},{"type":"character","attributes":{},"value":["https://giorgiocomai.eu"]},{"type":"character","attributes":{},"value":["OBCT/CCI - EDJNet"]},{"type":"character","attributes":{},"value":["https://europeandatajournalism.eu/"]},{"type":"character","attributes":{},"value":["0000-0002-0515-9542"]}]}]},{"type":"character","attributes":{},"value":["2024-08-05"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","includes"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["in_header"]}},"value":[{"type":"character","attributes":{},"value":["header.html"]}]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Olympics medalists, not by country, but by NUTS region"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url","orcid_id"]}},"value":[{"type":"character","attributes":{},"value":["Giorgio Comai"]},{"type":"character","attributes":{},"value":["https://giorgiocomai.eu"]},{"type":"character","attributes":{},"value":["OBCT/CCI - EDJNet"]},{"type":"character","attributes":{},"value":["https://europeandatajournalism.eu/"]},{"type":"character","attributes":{},"value":["0000-0002-0515-9542"]}]}]},{"type":"character","attributes":{},"value":["2024-08-11"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","includes"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["in_header"]}},"value":[{"type":"character","attributes":{},"value":["header.html"]}]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2359,7 +2359,7 @@ distill-header .nav a {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Olympics medalists, not by country, but by NUTS region","authors":[{"author":"Giorgio Comai","authorURL":"https://giorgiocomai.eu","affiliation":"OBCT/CCI - EDJNet","affiliationURL":"https://europeandatajournalism.eu/","orcidID":"0000-0002-0515-9542"}],"publishedDate":"2024-08-05T00:00:00.000+02:00","citationText":"Comai, 2024"}
+{"title":"Olympics medalists, not by country, but by NUTS region","authors":[{"author":"Giorgio Comai","authorURL":"https://giorgiocomai.eu","affiliation":"OBCT/CCI - EDJNet","affiliationURL":"https://europeandatajournalism.eu/","orcidID":"0000-0002-0515-9542"}],"publishedDate":"2024-08-11T00:00:00.000+02:00","citationText":"Comai, 2024"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2379,7 +2379,7 @@ distill-header .nav a {
 <div class="d-byline">
   Giorgio Comai <a href="https://giorgiocomai.eu" class="uri">https://giorgiocomai.eu</a> (OBCT/CCI - EDJNet)<a href="https://europeandatajournalism.eu/" class="uri">https://europeandatajournalism.eu/</a>
   
-<br />2024-08-05
+<br />2024-08-11
 </div>
 
 <div class="d-article">
@@ -2391,7 +2391,6 @@ distill-header .nav a {
 <li><a href="#havent-i-seen-this-before" id="toc-havent-i-seen-this-before">Haven’t I seen this before?</a></li>
 <li><a href="#how-do-we-go-about-it" id="toc-how-do-we-go-about-it">How do we go about it?</a></li>
 <li><a href="#datasets-and-maps" id="toc-datasets-and-maps">Datasets and maps</a></li>
-<li><a href="#all-medalists-on-wikipedia" id="toc-all-medalists-on-wikipedia">All medalists on Wikipedia</a></li>
 <li><a href="#credits" id="toc-credits">Credits</a></li>
 </ul>
 </nav>
@@ -2415,12 +2414,12 @@ distill-header .nav a {
 <h2 id="how-do-we-go-about-it">How do we go about it?</h2>
 <p>This whole data retrieval process is based on Wikipedia and Wikidata. Wikidata provides data in a more machine-readable format, but, at least in the past, the Wikipedia page listing all medalists was more complete and was updated much more quickly (there’s a <a href="https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Olympics">WikiProject Olympics</a>, if you’re looking for inputs on how to contribute). In brief, we get medalists from the Wikipedia page, then retrieve data about their place of birth from Wikidata, then with some geo-matching we attribute each of them to a NUTS region.</p>
 <p>We can then combine these data with other statistics about these regions, such as population and economic indicators.</p>
-<p><strong>N.B.</strong>: due to statistical and administrative changes, geographic data about NUTS regions and other indicators such as population or economic activity are not always published at the same time. In particular, the latest NUTS dataset realeased for 2024 would cover more countries in the Balkans, as well as Ukraine, but would not include the UK. In some countries, such as Netherlands and Portugal, administrative boundaries have changed. Population data are not immediately available for all NUTS 2024 regions. In order to maximise coverage and data availability, we include NUTS boundaries from 2021 for the UK, Netherlands and Portugal, as well as NUTS 2024 for all other countries. Population data for some regions (e.g. in Ukraine and Kosovo) are not available, so they are not included in the “per capita” table.</p>
+<p>Due to statistical and administrative changes, geographic data about NUTS regions and other indicators such as population or economic activity are not always published at the same time. In particular, the latest NUTS dataset realeased for 2024 covers <a href="https://ec.europa.eu/eurostat/web/nuts/non-eu-regions">more non EU-regions</a> in the Balkans, as well as Ukraine, but does not include the UK. In some countries, such as Netherlands and Portugal, administrative boundaries have changed, so population data are not immediately available for all NUTS 2024 regions. In order to maximise coverage and data availability, we include NUTS boundaries from 2021 for the UK, Netherlands and Portugal, as well as NUTS 2024 for all other countries. Population data for some NUTS regions (e.g. in Ukraine and Kosovo) are not available.</p>
+<p>It is worth highlighting that each person receiving a medal is counted as a medal. This is very much unlike the official medal table: in the following table a victory, e.g., in a quadruple sculls rowing competition results in four golden medals, not one; the same is true for all other team sports. This is coherent with the principle of counting medals based on place of birth of athletes: ultimately, each of them will bring home a shiny medal each, not, e.g., a quarter of a medal. In terms of ranking, compared to the most established medal table, this favours regions and countries that are strongest in team sports.</p>
 <h2 id="datasets-and-maps">Datasets and maps</h2>
 <p><strong>Warning</strong>: Provisional data, not checked for accuracy!</p>
 <div class="layout-chunk" data-layout="l-body">
 <ul>
-<li><a href="1948">1948 Summer Olympics</a></li>
 <li><a href="1960">1960 Summer Olympics</a></li>
 <li><a href="1964">1964 Summer Olympics</a></li>
 <li><a href="1976">1976 Summer Olympics</a></li>
@@ -2435,108 +2434,6 @@ distill-header .nav a {
 <li><a href="2020">2020 Summer Olympics</a></li>
 <li><a href="2024">2024 Summer Olympics</a></li>
 </ul>
-</div>
-<h2 id="all-medalists-on-wikipedia">All medalists on Wikipedia</h2>
-<p>Wikipedia has a <a href="https://en.wikipedia.org/wiki/Category:Lists_of_Summer_Olympic_medalists_by_year">category page</a> that includes links to all Wikipedia pages that report all Olympics medal winners for all modern summer Olympics. Here they are:</p>
-<div class="layout-chunk" data-layout="l-body">
-<table>
-<colgroup>
-<col style="width: 3%" />
-<col style="width: 96%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">year</th>
-<th style="text-align: left;">title</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">1896</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1896 Summer Olympics medal winners" style="     ">List of 1896 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">1900</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1900 Summer Olympics medal winners" style="     ">List of 1900 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1904</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1904 Summer Olympics medal winners" style="     ">List of 1904 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">1908</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1908 Summer Olympics medal winners" style="     ">List of 1908 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1912</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1912 Summer Olympics medal winners" style="     ">List of 1912 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">1920</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1920 Summer Olympics medal winners" style="     ">List of 1920 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1932</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1932 Summer Olympics medal winners" style="     ">List of 1932 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">1948</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1948 Summer Olympics medal winners" style="     ">List of 1948 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1960</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1960 Summer Olympics medal winners" style="     ">List of 1960 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">1964</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1964 Summer Olympics medal winners" style="     ">List of 1964 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1976</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1976 Summer Olympics medal winners" style="     ">List of 1976 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">1988</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1988 Summer Olympics medal winners" style="     ">List of 1988 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1992</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1992 Summer Olympics medal winners" style="     ">List of 1992 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">1996</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 1996 Summer Olympics medal winners" style="     ">List of 1996 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2000</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 2000 Summer Olympics medal winners" style="     ">List of 2000 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2004</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 2004 Summer Olympics medal winners" style="     ">List of 2004 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2008</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 2008 Summer Olympics medal winners" style="     ">List of 2008 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2012</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 2012 Summer Olympics medal winners" style="     ">List of 2012 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2016</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 2016 Summer Olympics medal winners" style="     ">List of 2016 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2020</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 2020 Summer Olympics medal winners" style="     ">List of 2020 Summer Olympics medal winners</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2024</td>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/List of 2024 Summer Olympics medal winners" style="     ">List of 2024 Summer Olympics medal winners</a></td>
-</tr>
-</tbody>
-</table>
 </div>
 <h2 id="credits">Credits</h2>
 <p>This dataset has been generated by Giorgio Comai (OBCT/CCI) within the scope of EDJNet, the European Data Journalism Network. It is released under a CC-BY license (Giorgio Comai/OBCT/EDJNet). Please do include a reference to EDJNet - the European Data Journalism Network if you use these data.</p>
