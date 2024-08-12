@@ -53,6 +53,41 @@ all_medalists_df <- fix_mismatch_ranking_in_wikidata(all_medalists_df, mismatch_
 all_medalists_wd_df <- o24_get_medalists_details(all_medalists_df)
 ```
 
+```{r quality_checks}
+## all medalists must be associated with an event
+testthat::expect_equal(
+  object = {
+    missing_event_qid_df <- all_medalists_wd_df |> 
+      dplyr::filter(is.na(event_wikidata_id))
+    
+    nrow(missing_event_qid_df)
+  },
+  expected = 0
+)
+
+
+## One event per medal
+testthat::expect_equal(
+  object = {
+    distinct_medalists_df <- all_medalists_wd_df |> 
+      dplyr::mutate(row_number = dplyr::row_number()) |> 
+      dplyr::distinct(event_wikidata_id, medalist_wikidata_id, .keep_all = TRUE) 
+    
+    
+    double_medalists_df <- all_medalists_wd_df |> 
+      dplyr::mutate(row_number = dplyr::row_number()) |> 
+      dplyr::anti_join(y = distinct_medalists_df,
+                       by = "row_number")
+    
+    nrow(double_medalists_df)
+  },
+  expected = 0
+)
+
+
+
+```
+
 
 ```{r all_medalists_wd_nuts_df}
 
@@ -61,7 +96,6 @@ all_medalists_wd_nuts_df <- o24_join_nuts(all_medalists_wd_df)
 
 
 ```
-
 
 
 ```{r all_medalists_wd_nuts_pop_df}
