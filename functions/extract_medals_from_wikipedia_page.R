@@ -296,23 +296,27 @@ o24_get_medals_from_table <- function(table) {
         
       } else if (col_number==4) {
         
-        medal_row_df <- tibble::tibble(event_link = current_row %>% 
-                                         html_nodes("td") %>% 
-                                         .[[1]] %>% 
-                                         html_nodes("a") %>% 
-                                         html_attr("href"), 
-                                       gold_medalist = current_row %>% 
-                                         o24_get_medalist_from_cell(td_number = 2), 
-                                       gold_country = current_row %>% 
-                                         o24_get_country_from_cell(td_number = 2),
-                                       silver_medalist = current_row %>% 
-                                         o24_get_medalist_from_cell(td_number = 3), 
-                                       silver_country = current_row %>% 
-                                         o24_get_country_from_cell(td_number = 3),
-                                       bronze_medalist = current_row %>% 
-                                         o24_get_medalist_from_cell(td_number = 4), 
-                                       bronze_country = current_row %>% 
-                                         o24_get_country_from_cell(td_number = 4),
+        medal_row_df <- tibble::tibble(event_link =  {
+          links <- current_row %>% 
+            html_nodes("td") %>% 
+            .[[1]] %>% 
+            html_nodes("a") %>% 
+            html_attr("href")
+          
+          links[stringr::str_detect(links, "cite_note", negate = TRUE)]
+        }, 
+        gold_medalist = current_row %>% 
+          o24_get_medalist_from_cell(td_number = 2), 
+        gold_country = current_row %>% 
+          o24_get_country_from_cell(td_number = 2),
+        silver_medalist = current_row %>% 
+          o24_get_medalist_from_cell(td_number = 3), 
+        silver_country = current_row %>% 
+          o24_get_country_from_cell(td_number = 3),
+        bronze_medalist = current_row %>% 
+          o24_get_medalist_from_cell(td_number = 4), 
+        bronze_country = current_row %>% 
+          o24_get_country_from_cell(td_number = 4),
         ) 
       } else if (col_number==7) {
         
