@@ -1,17 +1,14 @@
 event_name,medal,medalist_name,medalist_wikidata_id,country_medal,delegation_name,sex_or_gender
-Artistic swimming at the 2024 Summer Olympics – Team event,gold,Cheng Wentao,Q65683248,People's Republic of China,China at the 2024 Summer Olympics,female
 Artistic swimming at the 2024 Summer Olympics – Team event,gold,Wang Ciyue,Q112665541,People's Republic of China,China at the 2024 Summer Olympics,female
 Artistic swimming at the 2024 Summer Olympics – Team event,gold,Xiang Binxuan,Q112665605,People's Republic of China,China at the 2024 Summer Olympics,female
 Artistic swimming at the 2024 Summer Olympics – Team event,gold,Zhang Yayi,Q112665659,People's Republic of China,China at the 2024 Summer Olympics,female
 athletics at the 2024 Summer Olympics – men's 4 × 100 metres relay,silver,Bayanda Walaza,Q126811440,South Africa,South Africa at the 2024 Summer Olympics,male
 athletics at the 2024 Summer Olympics – men's 4 × 100 metres relay,silver,Bradley Nkoana,Q126811441,South Africa,South Africa at the 2024 Summer Olympics,male
 athletics at the 2024 Summer Olympics – men's 4 × 400 metres relay,gold,Christopher Bailey,Q121298078,United States of America,United States at the 2024 Summer Olympics,male
-athletics at the 2024 Summer Olympics – men's 4 × 400 metres relay,gold,Quincy Wilson,Q124813297,United States of America,United States at the 2024 Summer Olympics,male
 athletics at the 2024 Summer Olympics – men's marathon,bronze,Benson Kipruto,Q108869223,Kenya,Kenya at the 2024 Summer Olympics,male
 athletics at the 2024 Summer Olympics – women's 200 metres,bronze,Brittany Brown,Q69523041,United States of America,United States at the 2024 Summer Olympics,female
 athletics at the 2024 Summer Olympics – women's 100 metres hurdles,gold,Masai Russell,Q122662304,United States of America,United States at the 2024 Summer Olympics,female
 athletics at the 2024 Summer Olympics – women's 4 × 400 metres relay,gold,Aaliyah Butler,Q126897143,United States of America,United States at the 2024 Summer Olympics,female
-athletics at the 2024 Summer Olympics – women's long jump,gold,Tara Davis-Woodhall,Q44904279,United States of America,United States at the 2024 Summer Olympics,female
 athletics at the 2024 Summer Olympics – women's shot put,bronze,Song Jiayuan,Q63255770,People's Republic of China,China at the 2024 Summer Olympics,female
 athletics at the 2024 Summer Olympics – women's hammer throw,bronze,Zhao Jie,Q115598750,People's Republic of China,China at the 2024 Summer Olympics,female
 basketball at the 2024 Summer Olympics – women's tournament,bronze,Isobel Borlase,Q124216554,Australia,Australia at the 2024 Summer Olympics,female
@@ -24,7 +21,6 @@ Boxing at the 2024 Summer Olympics – Women's 60 kg,silver,Yang Wenlu,Q12296557
 Boxing at the 2024 Summer Olympics – Women's 66 kg,silver,Yang Liu,Q70822428,People's Republic of China,China at the 2024 Summer Olympics,female
 Breaking at the 2024 Summer Olympics – B-Boys,gold,Philip Kim,Q123115702,Canada,Canada at the 2024 Summer Olympics,male
 Breaking at the 2024 Summer Olympics – B-Boys,bronze,Victor Montalvo,Q113393869,United States of America,United States at the 2024 Summer Olympics,male
-Breaking at the 2024 Summer Olympics – B-Girls,bronze,Liu Qingyi,Q115632837,People's Republic of China,China at the 2024 Summer Olympics,female
 Canoeing at the 2024 Summer Olympics – Men's slalom C-1,gold,Nicolas Gestin,Q104470593,France,France at the 2024 Summer Olympics,male
 Canoeing at the 2024 Summer Olympics – Men's K-4 500 metres,silver,Riley Fitzsimmons,Q26431489,Australia,Australia at the 2024 Summer Olympics,male
 Canoeing at the 2024 Summer Olympics – Men's K-4 500 metres,silver,Jackson Collins,Q113469272,Australia,Australia at the 2024 Summer Olympics,male
@@ -35,7 +31,6 @@ Diving at the 2024 Summer Olympics – Women's synchronized 10 metre platform,si
 fencing at the 2024 Summer Olympics – men's team sabre,gold,Park Sang-won,Q126684394,South Korea,South Korea at the 2024 Summer Olympics,male
 field hockey at the 2024 Summer Olympics – men's tournament,silver,Malte Hellwig,Q111830837,Germany,Germany at the 2024 Summer Olympics,male
 field hockey at the 2024 Summer Olympics – men's tournament,silver,Moritz Ludwig,Q114771116,Germany,Germany at the 2024 Summer Olympics,male
-field hockey at the 2024 Summer Olympics – men's tournament,bronze,Mahesh madavi,Q112427208,India,India at the 2024 Summer Olympics,male
 field hockey at the 2024 Summer Olympics – women's tournament,silver,Gu Bingfeng,Q56043488,People's Republic of China,China at the 2024 Summer Olympics,female
 field hockey at the 2024 Summer Olympics – women's tournament,silver,Zhang Ying,Q108001519,People's Republic of China,China at the 2024 Summer Olympics,female
 field hockey at the 2024 Summer Olympics – women's tournament,silver,Chen Yi,Q108004329,People's Republic of China,China at the 2024 Summer Olympics,female
@@ -49,11 +44,8 @@ football at the 2024 Summer Olympics – women's tournament,gold,Emily Sams,Q116
 football at the 2024 Summer Olympics – women's tournament,silver,Priscila,Q123600978,Brazil,Brazil at the 2024 Summer Olympics,female
 football at the 2024 Summer Olympics – women's tournament,silver,Tainá,Q97738872,Brazil,Brazil at the 2024 Summer Olympics,female
 gymnastics at the 2024 Summer Olympics – men's pommel horse,silver,Nariman Kurbanov,Q96359336,Kazakhstan,Kazakhstan at the 2024 Summer Olympics,male
-gymnastics at the 2024 Summer Olympics – women's rhythmic group all-around,gold,Guo Qiqi,Q107895769,People's Republic of China,China at the 2024 Summer Olympics,female
-gymnastics at the 2024 Summer Olympics – women's rhythmic group all-around,gold,Huang Zhangjiayang,Q107897242,People's Republic of China,China at the 2024 Summer Olympics,female
 gymnastics at the 2024 Summer Olympics – women's rhythmic group all-around,silver,Diana Svertsov,Q112635162,Israel,Israel at the 2024 Summer Olympics,female
 gymnastics at the 2024 Summer Olympics – women's rhythmic group all-around,silver,Adar Friedmann,Q112635158,Israel,Israel at the 2024 Summer Olympics,female
-gymnastics at the 2024 Summer Olympics – women's rhythmic group all-around,silver,Romi Paritzki,Q112635160,Israel,Israel at the 2024 Summer Olympics,female
 gymnastics at the 2024 Summer Olympics – men's trampoline,silver,Wang Zisai,Q123421510,People's Republic of China,China at the 2024 Summer Olympics,male
 gymnastics at the 2024 Summer Olympics – men's trampoline,bronze,Yan Langyu,Q115414353,People's Republic of China,China at the 2024 Summer Olympics,male
 handball at the 2024 Summer Olympics – men's tournament,gold,Thomas Sommer Arnoldsen,Q113015177,Denmark,Denmark at the 2024 Summer Olympics,male
@@ -89,14 +81,11 @@ rugby sevens at the 2024 Summer Olympics – men's tournament,bronze,Ronald Brow
 rugby sevens at the 2024 Summer Olympics – Women's tournament,silver,Taylor Perry,Q114908187,Canada,Canada at the 2024 Summer Olympics,female
 rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Kayla Canett,Q41324032,United States of America,United States at the 2024 Summer Olympics,female
 rugby sevens at the 2024 Summer Olympics – Women's tournament,bronze,Kristi Kirshe,Q107652712,United States of America,United States at the 2024 Summer Olympics,female
-sailing at the 2024 Summer Olympics – men's Formula Kite,bronze,Maximilian Maeder,Q108806367,Singapore,Singapore at the 2024 Summer Olympics,male
 shooting at the 2024 Summer Olympics – men's 25 metre rapid fire pistol,bronze,Wang Xinjie,Q128565653,People's Republic of China,China at the 2024 Summer Olympics,male
 shooting at the 2024 Summer Olympics – women's 25 metre pistol,gold,Yang Jiin,Q126974227,South Korea,South Korea at the 2024 Summer Olympics,female
 shooting at the 2024 Summer Olympics – women's 50 metre rifle three positions,bronze,Zhang Qiongyue,Q121756004,People's Republic of China,China at the 2024 Summer Olympics,female
-shooting at the 2024 Summer Olympics – mixed skeet team,bronze,Jiang Yiting,Q128593825,People's Republic of China,China at the 2024 Summer Olympics,female
 sport climbing at the 2024 Summer Olympics – men's speed,silver,Wu Peng,Q125525557,People's Republic of China,China at the 2024 Summer Olympics,male
 Sport climbing at the 2024 Summer Olympics – Women's speed,silver,Deng Lijuan,Q128693540,People's Republic of China,China at the 2024 Summer Olympics,female
-swimming at the 2024 Summer Olympics – men's 4 × 100 metre freestyle relay,gold,Matt King,Q120920368,United States of America,United States at the 2024 Summer Olympics,male
 swimming at the 2024 Summer Olympics – men's 4 × 100 metre freestyle relay,silver,William Yang,Q112627222,Australia,Australia at the 2024 Summer Olympics,male
 swimming at the 2024 Summer Olympics – men's 4 × 200 metre freestyle relay,bronze,Maximillian Giuliani,Q128028174,Australia,Australia at the 2024 Summer Olympics,male
 swimming at the 2024 Summer Olympics – women's 4 × 100 metre freestyle relay,bronze,Yu Yiting,Q65717889,People's Republic of China,China at the 2024 Summer Olympics,female
@@ -108,15 +97,7 @@ swimming at the 2024 Summer Olympics – women's 4 × 100 metre medley relay,bro
 taekwondo at the 2024 Summer Olympics – men's 68 kg,bronze,Liang Yushuai,Q115281159,People's Republic of China,China at the 2024 Summer Olympics,male
 taekwondo at the 2024 Summer Olympics – men's 68 kg,bronze,Edival Marques,Q47493803,Brazil,Brazil at the 2024 Summer Olympics,male
 taekwondo at the 2024 Summer Olympics – men's 80 kg,gold,Firas Katoussi,Q72434161,Tunisia,Tunisia at the 2024 Summer Olympics,male
-taekwondo at the 2024 Summer Olympics – men's 80 kg,silver,Mehran Barkhordari,Q123517126,Iran,Iran at the 2024 Summer Olympics,male
-taekwondo at the 2024 Summer Olympics – men's 80 kg,bronze,Edi Hrnic,Q112109067,Denmark,Denmark at the 2024 Summer Olympics,male
 taekwondo at the 2024 Summer Olympics – women's 49 kg,silver,Guo Qing,Q115470854,People's Republic of China,China at the 2024 Summer Olympics,female
-water polo at the 2024 Summer Olympics – men's tournament,silver,Rino Burić,Q128486367,Croatia,Croatia at the 2024 Summer Olympics,male
-water polo at the 2024 Summer Olympics – men's tournament,silver,Loren Fatovic,Q27927283,Croatia,Croatia at the 2024 Summer Olympics,male
-water polo at the 2024 Summer Olympics – men's tournament,silver,Ante Vukičević,Q16111726,Croatia,Croatia at the 2024 Summer Olympics,male
-water polo at the 2024 Summer Olympics – men's tournament,silver,Marko Žuvela,Q128486349,Croatia,Croatia at the 2024 Summer Olympics,male
-water polo at the 2024 Summer Olympics – men's tournament,silver,Matias Biljaka,Q128486294,Croatia,Croatia at the 2024 Summer Olympics,male
-water polo at the 2024 Summer Olympics – men's tournament,silver,Toni Popadić,Q128486795,Croatia,Croatia at the 2024 Summer Olympics,male
 water polo at the 2024 Summer Olympics – men's tournament,bronze,Chase Dodd,Q128486690,United States of America,United States at the 2024 Summer Olympics,male
 water polo at the 2024 Summer Olympics – men's tournament,bronze,Ryder Dodd,Q128486674,United States of America,United States at the 2024 Summer Olympics,male
 water polo at the 2024 Summer Olympics – men's tournament,bronze,Adrian Weinberg,Q127603860,United States of America,United States at the 2024 Summer Olympics,male
@@ -126,18 +107,14 @@ water polo at the 2024 Summer Olympics – women's tournament,silver,Sienna Hear
 water polo at the 2024 Summer Olympics – women's tournament,silver,Danijela Jackovich,Q127956924,Australia,Australia at the 2024 Summer Olympics,female
 water polo at the 2024 Summer Olympics – women's tournament,silver,Genevieve Longman,Q127956878,Australia,Australia at the 2024 Summer Olympics,female
 water polo at the 2024 Summer Olympics – women's tournament,silver,Alice Williams,Q128031422,Australia,Australia at the 2024 Summer Olympics,female
-Weightlifting at the 2024 Summer Olympics – Men's 61 kg,bronze,Hampton Morris,Q111829517,United States of America,United States at the 2024 Summer Olympics,male
-Weightlifting at the 2024 Summer Olympics – Men's 73 kg,silver,Weeraphon Wichuma,Q122417237,Thailand,Thailand at the 2024 Summer Olympics,male
-Weightlifting at the 2024 Summer Olympics – Men's 89 kg,silver,NA,Q128796896,Colombia,Colombia at the 2024 Summer Olympics,male
+Weightlifting at the 2024 Summer Olympics – Men's 89 kg,silver,Yeison López,Q128796896,Colombia,Colombia at the 2024 Summer Olympics,male
 Weightlifting at the 2024 Summer Olympics – Men's 102 kg,gold,Liu Huanhua,Q115679777,People's Republic of China,China at the 2024 Summer Olympics,male
 Weightlifting at the 2024 Summer Olympics – Men's +102 kg,silver,Varazdat Lalayan,Q106466181,Armenia,Armenia at the 2024 Summer Olympics,male
 Weightlifting at the 2024 Summer Olympics – Women's 49 kg,gold,Hou Zhihui,Q58194580,People's Republic of China,China at the 2024 Summer Olympics,female
 Weightlifting at the 2024 Summer Olympics – Women's 59 kg,gold,Luo Shifang,Q115650193,People's Republic of China,China at the 2024 Summer Olympics,female
-Weightlifting at the 2024 Summer Olympics – Women's 71 kg,gold,Olivia Reeves,Q109837905,United States of America,United States at the 2024 Summer Olympics,female
 Weightlifting at the 2024 Summer Olympics – Women's 71 kg,bronze,Angie Palacios,Q65970346,Ecuador,Ecuador at the 2024 Summer Olympics,female
 Weightlifting at the 2024 Summer Olympics – Women's +81 kg,silver,Park Hye-jeong,Q111969416,South Korea,South Korea at the 2024 Summer Olympics,female
 wrestling at the 2024 Summer Olympics – men's freestyle 65 kg,gold,Kōtarō Kiyooka,Q127375487,Japan,Japan at the 2024 Summer Olympics,male
-wrestling at the 2024 Summer Olympics – men's freestyle 97 kg,gold,Akhmed Tazhudinov,Q112990953,Bahrain,Bahrain at the 2024 Summer Olympics,male
 Wrestling at the 2024 Summer Olympics – Men's Greco-Roman 60 kg,silver,Cao Liguo,Q117768660,People's Republic of China,China at the 2024 Summer Olympics,male
 Wrestling at the 2024 Summer Olympics – Men's Greco-Roman 60 kg,bronze,Ri Se-ung,Q55390045,North Korea,North Korea at the 2024 Summer Olympics,male
 Wrestling at the 2024 Summer Olympics – Men's Greco-Roman 77 kg,silver,Demeu Zhadrayev,Q22442687,Kazakhstan,Kazakhstan at the 2024 Summer Olympics,male
