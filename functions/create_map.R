@@ -42,7 +42,8 @@ o24_create_global_map <- function(all_medalists_wd_nuts_pop_df, olympics_year) {
   
   leaflet_medals <- all_medalists_ll %>% 
     leaflet() %>%
-    leaflet::addTiles(urlTemplate = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png") %>% 
+    leaflet::addTiles(urlTemplate = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                      attribution = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>') %>% 
     leaflet::addMarkers(
       lng = all_medalists_ll$lon,
       lat = all_medalists_ll$lat,

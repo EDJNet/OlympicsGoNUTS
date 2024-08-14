@@ -90,7 +90,6 @@ PL61,Kujawsko-pomorskie,Poland,2,1943197,1.02923172483284
 FRK2,Rhône-Alpes,France,7,6827323,1.025292050778907
 UKG3,West Midlands,United Kingdom,3,2928377,1.0244582579360513
 FRJ1,Languedoc-Roussillon,France,3,2941209,1.0199887189247687
-PL82,Podkarpackie,Poland,2,1962332,1.019195528585377
 DEC0,Saarland,Germany,1,992666,1.0073881849484116
 UKM7,Eastern Scotland,United Kingdom,2,1998699,1.0006509234256884
 DEB3,Rheinhessen-Pfalz,Germany,2,2090077,0.9569025447387823
@@ -149,6 +148,7 @@ BE21,Prov. Antwerpen,Belgium,1,1915921,0.521942188639302
 FRE2,Picardie,France,1,1916353,0.521824528153216
 DE27,Schwaben,Germany,1,1945978,0.5138804241363468
 FRG0,Pays de la Loire,France,2,3902115,0.5125425570491899
+PL82,Podkarpackie,Poland,1,1962332,0.5095977642926885
 AT13,Wien,Austria,1,1982097,0.5045161765544269
 UKJ3,Hampshire and Isle of Wight,United Kingdom,1,1993050,0.501743558867063
 LT02,Vidurio ir vakarų Lietuvos regionas ,Lithuania,1,2008555,0.49787035953708014
@@ -171,8 +171,8 @@ TR42,"Kocaeli, Sakarya, Düzce, Bolu, Yalova",Turkey,1,4181440,0.239152062447386
 ES61,Andalucía,Spain,1,8584147,0.11649381120803266
 UA33,Kirovohradska Oblast,Ukraine,5,NA,NA
 UA63,M. Kyiv,Ukraine,5,NA,NA
-UA42,Odeska Oblast,Ukraine,5,NA,NA
 UA43,Khersonska Oblast,Ukraine,4,NA,NA
+UA42,Odeska Oblast,Ukraine,4,NA,NA
 UA31,Dnipropetrovska Oblast,Ukraine,3,NA,NA
 UA22,Luhanska Oblast,Ukraine,3,NA,NA
 UA21,Donetska Oblast,Ukraine,2,NA,NA

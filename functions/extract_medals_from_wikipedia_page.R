@@ -204,6 +204,7 @@ o24_get_medalist_from_cell <- function(row,
     html_attr("href") 
   
   links <- links[!stringr::str_detect(links, "#cite")]
+  links <- links[!stringr::str_detect(links, "#endnote")]
   links <- links[!stringr::str_detect(links, stringr::fixed("/wiki/List_of_"))]
   
   if (length(links)==0) {
@@ -225,6 +226,7 @@ o24_get_country_from_cell <- function(row, td_number) {
     html_attr("href") 
   
   links <- links[!stringr::str_detect(links, "#cite")]
+  links <- links[!stringr::str_detect(links, "#endnote")]
   
   if (length(links)==0) {
     as.character(NA)
@@ -303,7 +305,7 @@ o24_get_medals_from_table <- function(table) {
             html_nodes("a") %>% 
             html_attr("href")
           
-          links[stringr::str_detect(links, "cite_note", negate = TRUE)]
+          links[stringr::str_detect(links, "#cite_note|#endnote", negate = TRUE)]
         }, 
         gold_medalist = current_row %>% 
           o24_get_medalist_from_cell(td_number = 2), 

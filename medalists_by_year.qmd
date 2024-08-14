@@ -53,7 +53,7 @@ all_medalists_df <- fix_mismatch_ranking_in_wikidata(all_medalists_df, mismatch_
 all_medalists_wd_df <- o24_get_medalists_details(all_medalists_df)
 ```
 
-```{r quality_checks}
+```{r quality_checks, eval = TRUE}
 ## all medalists must be associated with an event
 testthat::expect_equal(
   object = {
