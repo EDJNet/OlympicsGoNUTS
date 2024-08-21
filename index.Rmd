@@ -53,11 +53,13 @@ It is worth highlighting that each person receiving a medal is counted as a meda
 
 ## Datasets and maps
 
-**Warning**: Provisional data, not checked for accuracy!
+Even if the main objective of this initiative is to get data about ongoing and recent summer Olympics, this repository includes data for all Summer Olympics since 1960 __which have a dedicated page with all medal winners on Wikipedia__ ([see a list of all Olympics with full medalist pages available on Wikipedia](https://en.wikipedia.org/wiki/Category:Lists_of_Summer_Olympic_medalists_by_year)). This second criteria is important. __Only starting with 1988 all Olympics are present__. The data for missing Olympics seem to be available scattered around Wikipedia (and of course, elsewhere on-line), but until some patient Wikipedia contributor collates this data in a somewhat standardised page, this automatic approach cannot work. Data on medal winners in Wikidata itself are much more incomplete even for recent Olympics events; when they *are* available, they are used as a quality check to ensure consistency with data parsed from the medal table on Wikipedia. 
+
+**Warning**: data have not been thoroughly checked for accuracy, with the partial exception of 2020 and 2024 Olympics!
 
 ```{r link_to_all_html, results='asis', echo=FALSE}
 years_v <- list_of_lists_df |> 
-  dplyr::filter(year>1950) |> 
+  dplyr::filter(year>=1960) |> 
   dplyr::pull(year)
 
 purrr::walk(years_v, \(x) {
